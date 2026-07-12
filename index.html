@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio professionnel de Mohamed Salem, étudiant en Licence MIAGE et développeur web." />
+  <title>Mohamed Salem | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="#accueil">MS.</a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu">☰</button>
+      <div class="nav-links">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#formation">Formation</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow">Étudiant en Licence MIAGE</span>
+          <h1>Bonjour, je suis <span>Mohamed Salem</span></h1>
+          <p class="hero-text">
+            Développeur web passionné par Django, React, les bases de données
+            et l’intelligence artificielle.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projets">Voir mes projets</a>
+            <a class="btn secondary" href="assets/CV_Mohamed_Salem.pdf" target="_blank">Télécharger mon CV</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/Mohamed27035/" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/mohamed-salem-8890ba35b/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:mohamed27035@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="profile-card">
+          <img src="assets/profile.jpg" alt="Portrait de Mohamed Salem" />
+          <div class="profile-badge">Disponible pour des projets</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="container narrow">
+        <p class="section-label">À propos</p>
+        <h2>Un profil orienté développement et innovation</h2>
+        <p class="lead">
+          Étudiant en Licence 3 MIAGE à l’Université de Nouakchott, je possède
+          des compétences en développement web, programmation, bases de données
+          et génie logiciel. Je m’intéresse particulièrement à l’intelligence
+          artificielle, à la cybersécurité et aux nouvelles technologies.
+        </p>
+      </div>
+    </section>
+
+    <section id="competences" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Compétences</p>
+        <h2>Technologies et outils</h2>
+        <div class="skills-grid">
+          <article class="card">
+            <h3>Backend</h3>
+            <div class="tags">
+              <span>Python</span><span>Django</span><span>Django REST Framework</span><span>Java</span><span>PHP</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Frontend</h3>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Flutter</span><span>Dart</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Données & systèmes</h3>
+            <div class="tags">
+              <span>PostgreSQL</span><span>SQLite</span><span>Linux</span><span>SQL</span>
+            </div>
+          </article>
+          <article class="card">
+            <h3>Outils</h3>
+            <div class="tags">
+              <span>Git</span><span>GitHub</span><span>Postman</span><span>Render</span><span>WordPress</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projets" class="section">
+      <div class="container">
+        <p class="section-label">Projets</p>
+        <h2>Mes réalisations</h2>
+        <div class="projects-grid">
+          <article class="project-card featured">
+            <div class="project-number">01</div>
+            <div>
+              <span class="project-type">Projet de fin d’études</span>
+              <h3>Plateforme Fintech de reporting, d’audit et d’administration</h3>
+              <p>
+                Conception et développement d’une plateforme permettant la gestion
+                des utilisateurs, le suivi des opérations, la génération de rapports,
+                l’audit et la consultation des journaux d’activité.
+              </p>
+              <div class="tags">
+                <span>Django</span><span>DRF</span><span>React</span><span>JWT</span><span>SQLite</span><span>Render</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/Mohamed27035/nexora-backend" target="_blank" rel="noreferrer">Voir sur GitHub ↗</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">02</div>
+            <div>
+              <span class="project-type">Projet académique</span>
+              <h3>Application de gestion des abonnements</h3>
+              <p>
+                Application destinée à la gestion des utilisateurs, des paiements
+                et du suivi des abonnements.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">03</div>
+            <div>
+              <span class="project-type">Sécurité informatique</span>
+              <h3>Étude de l’injection SQL sous Linux</h3>
+              <p>
+                Analyse des vulnérabilités liées à l’injection SQL et mise en pratique
+                dans un environnement Linux contrôlé.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">04</div>
+            <div>
+              <span class="project-type">Développement web</span>
+              <h3>Projet WordPress</h3>
+              <p>
+                Création et personnalisation d’un site web avec le CMS WordPress.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="formation" class="section section-alt">
+      <div class="container">
+        <p class="section-label">Formation</p>
+        <h2>Parcours académique</h2>
+        <article class="timeline-card">
+          <div class="timeline-dot"></div>
+          <div>
+            <span class="year">2025–2026</span>
+            <h3>Licence 3 MIAGE</h3>
+            <p>Université de Nouakchott</p>
+            <p class="muted">
+              Programmation, bases de données, génie logiciel, développement web,
+              systèmes Linux et intelligence artificielle.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-box">
+        <div>
+          <p class="section-label">Contact</p>
+          <h2>Discutons d’un projet ou d’une opportunité</h2>
+          <p>Je suis disponible pour échanger autour du développement web, de la Fintech et de l’intelligence artificielle.</p>
+        </div>
+        <a class="btn primary" href="mailto:mohamed27035@gmail.com">Me contacter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Mohamed Salem. Tous droits réservés.</p>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
